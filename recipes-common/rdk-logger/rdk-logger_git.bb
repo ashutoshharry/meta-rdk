@@ -15,8 +15,6 @@ PACKAGE_ARCH = "${MIDDLEWARE_ARCH}"
 DEPENDS = "log4c glib-2.0"
 DEPENDS:append = " ${@bb.utils.contains('DISTRO_FEATURES', 'safec', ' safec', " ", d)}"
 
-#Milestone Support
-EXTRA_OECONF += " --enable-milestone"
 PROVIDES = "getClockUptime"
 CFLAGS:append = " -DLOGMILESTONE"
 
