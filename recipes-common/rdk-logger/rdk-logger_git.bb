@@ -6,9 +6,9 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=175792518e4ac015ab6696d16c4f607e"
 
 SRC_URI = "${CMF_GITHUB_ROOT}/rdk_logger;protocol=https;branch=topic/newapi"
 S = "${WORKDIR}/git"
-SRCREV = "e9a98a769c4df3eee0feb6f93299b6a99b1e311b"
+SRCREV = "b0623ca06182fd518df32a0c5fff89ff8305d475"
 PV = "2.4.0"
-PR = "r0"
+PR = "r1"
 PACKAGE_ARCH = "${MIDDLEWARE_ARCH}"
 
 
